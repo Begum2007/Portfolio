@@ -204,10 +204,21 @@ body {
 }
 
 /* Skill Renkleri */
-.text-html { color: #e34c26; }
-.text-css { color: #264de4; }
-.text-js { color: #f7df1e; }
-.text-react { color: #61dafb; }
+.text-html {
+    color: #e34c26;
+}
+
+.text-css {
+    color: #264de4;
+}
+
+.text-js {
+    color: #f7df1e;
+}
+
+.text-react {
+    color: #61dafb;
+}
 
 /* PROJELER */
 .projects-grid {
@@ -275,7 +286,8 @@ body {
     margin-bottom: 30px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     background-color: var(--card-bg);
     border: 1px solid #334155;
     color: var(--text-color);
@@ -285,14 +297,15 @@ body {
     outline: none;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
     border-color: var(--primary-color);
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 22px;
 }
 
 .social-links a {
@@ -321,7 +334,8 @@ footer {
 
     .nav-links {
         position: absolute;
-        top: 70px; /* navbar height */
+        top: 70px;
+        /* navbar height */
         left: -100%;
         flex-direction: column;
         background-color: var(--card-bg);
@@ -340,7 +354,7 @@ footer {
     .hero-title {
         font-size: 36px;
     }
-    
+
     .hero-subtitle {
         font-size: 20px;
     }
@@ -348,13 +362,13 @@ footer {
     .project-card {
         width: 100%;
     }
-    
+
     .hero-buttons {
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
-    
+
     .btn-secondary {
         margin-left: 0;
     }
