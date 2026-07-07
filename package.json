@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Kişisel portfolyo web sitesi",
+  "scripts": {
+    "dev": "npx --yes live-server --port=3000"
+  },
+  "keywords": [],
+  "author": "Begüm ALTUNDAĞ",
+  "license": "ISC"
+}
